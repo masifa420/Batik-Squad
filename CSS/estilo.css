@@ -5,24 +5,24 @@
 body{
     background-color: #FCE4EC;
     text-align: center;
-    height: 400px;
+    height: 25rem;
     width: auto;
     
 }
 footer{
     position: relative;
     background-color: coral;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 .imagenEncabezado{
     float: left;
-    height: 150px;
-    width: 200px;
+    height: 10rem;
+    width: 13rem;
     background-color: #FCE4EC;
 }
 .encabezadoBatik{
-    height: 150px;
-    width: 1200px;
+    height: 10rem;
+    width: 75rem;
     margin: 0%;
     background-color: #FCE4EC; 
     
@@ -36,7 +36,7 @@ footer{
 }
 .encabezadoCss{
     display: flex;
-    height: 200px;
+    height: 13rem;
     margin-bottom: 20px;
     border-style: solid;
     border-color: turquoise;
@@ -47,7 +47,7 @@ footer{
 }
 .logo img{
    height: max-content;
-   width: 200px; 
+   width: 13rem; 
    border-radius: 7px;
    animation-duration: 1s;
    animation-name: elSloganEfecto;
@@ -59,9 +59,9 @@ footer{
 
 }
 .elSlogan{
-    font-size: 50px;
+    font-size: 3rem;
     font-family:'Arial Narrow Bold';
-    margin-top: 64px;   
+    margin-top: 4rem;   
     color: rgba(255, 255, 28, 0.692);
     text-shadow: 0.2em 0.5em 0.1em rgb(219, 129, 45);
     animation-duration: 4s;
@@ -97,7 +97,7 @@ footer{
 }
 .homeBoton{
     height: 45px;
-    width: 140px;
+    width: 9rem;
    
 }
 .tablaDePrendas{
@@ -148,8 +148,8 @@ th, td{
     background-color: rgb(238, 111, 179);
 }
 .listadoPrendas{
-    height: 100px;
-    width: 170px;
+    height: 6rem;
+    width: 11rem;
     margin: 30px;
     text-align: center;
     display: flex;
@@ -161,9 +161,9 @@ th, td{
     text-align: center;
 }
 .zapatillasBatik{
-    height: 300px; 
-    width: 300px;
-    padding-bottom: 110px;
+    height: 19rem; 
+    width: 19rem;
+    padding-bottom: 7rem;
 }
 .tallesRemeras{
     padding-left: 45px;
@@ -227,7 +227,7 @@ th, td{
     text-align: justify;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 100px;
+    margin-top: 6rem;
     margin-bottom: 0%;
 }
 .listadoFanPage{ 
@@ -338,14 +338,14 @@ th, td{
 }
 .infoClienteDos{
     margin-top: 20px;
-    margin-left: 160px;
+    margin-left: 10rem;
     font-family: monospace;
     color: rgb(68, 51, 54);
     
 }
 .infoClienteTres{
     margin-top: 20px;
-    margin-left: 160px;
+    margin-left: 10rem;
     font-family: monospace;
     color: rgb(68, 51, 54);
 }
@@ -360,9 +360,9 @@ th, td{
 
 }
 .aaronind{
-    width: 450px;
-    height: 200px;
-    margin-left: 200px;
+    width: 28rem;
+    height: 13rem;
+    margin-left: 13rem;
 
 }
 .articuloPrincipalSquad{
@@ -406,7 +406,7 @@ th, td{
     display: none;
     position:absolute;  
     height: auto;
-    width:113px;
+    width: 7rem;
     text-decoration: none;
 }
 .subMenu li{
@@ -444,8 +444,8 @@ ul .sub:hover .subMenu{
 }
 .remeraFanPage{
     
-    height: 400px;
-    width: 300px;
+    height: 25rem;
+    width: 19rem;
     margin-right: 50px;
 }
 .parrafosSinHijos{
@@ -482,8 +482,8 @@ ul .sub:hover .subMenu{
     border-radius: 5px;
 }
 .item{
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 13rem;
+    min-height: 13rem;
 }
 .item:hover{
     transform: scale(1.2);
@@ -557,6 +557,58 @@ ul .sub:hover .subMenu{
         display: grid;
         grid-template-columns: auto;
     }
+    .Clientes img{
+        margin-left: 0;
+        width: 100%;
+    }
+    .elFormulario{
+        width: 100%;
+        margin: 0;
+    }
+    .listadoMateriales{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .listadoMaterialesDos{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .listadoMaterialesTres{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .pasosAnilina{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .procedimientos{
+        margin: 0;
+        width: 100%;
+    }
+    .procedimientoDos{
+        margin: 0;
+        width: 100%;
+    }
+    .procedimientoTres{
+        margin: 0;
+        width: 100%;
+    }
+    .primerProcedimiento{
+        margin: 0;
+        width: 100%;
+    }
+    .segundaSeccion{
+        margin: 0;
+        width: 100%;
+    }
+    .videoGaleria{
+        width: 100%;
+    }
+
 }
 .esAaronind{
     list-style: none;
