@@ -387,10 +387,17 @@ th, td{
 }
 .formularios{
     text-align: left;
-    
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(173, 65, 245);   
+    padding: 2%;
 }
 .elFormulario{
     margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(241, 163, 163);
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 5%;
 }
 
 .enviarBorrar{
@@ -441,12 +448,13 @@ ul .sub:hover .subMenu{
 
 .procedimientosAnilina{
    display: flex;
+   flex-wrap: wrap;
+   text-align: center;
 }
 .remeraFanPage{
-    
-    height: 25rem;
-    width: 19rem;
-    margin-right: 50px;
+    margin: auto;
+    display: block;
+
 }
 .parrafosSinHijos{
     font-family:monospace;
@@ -550,8 +558,12 @@ ul .sub:hover .subMenu{
         margin: 5px;
     }
     .procedimientosAnilina{
-       display: grid;
-       grid-template-columns: auto;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 10px;
     }
     .listadoMateriales{
         display: grid;
@@ -607,6 +619,12 @@ ul .sub:hover .subMenu{
     }
     .videoGaleria{
         width: 100%;
+    }
+    .remeraFanPage{
+    width: 90%;
+    }
+    .peligroLavandina{
+        font-size:medium;
     }
 
 }
